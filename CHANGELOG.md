@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-11-26
+
+### Changed
+
+- CI actions updated via Dependabot: `actions/checkout` to v7 and
+  `actions/setup-python` to v7 (#1, #2).
+
 ## [1.1.0] - 2026-11-26
 
 ### Added

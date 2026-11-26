@@ -4,7 +4,7 @@ description: Initializes or repairs agent-facing repository context for any code
 compatibility: Python 3.10+ on Windows, macOS or Linux. Read-only scripts; no third-party packages.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Initializing Agent Context
