@@ -9,7 +9,7 @@ creating the remote and pushing.
 - [ ] `python scripts/check_agent_docs.py --root . --strict` passes.
 - [ ] The copyright holder in `LICENSE` is correct.
 - [ ] The owner in `README.md` badges and clone URLs is correct
-      (`jAIwave` by default; change it if you publish under another account).
+      (`johannes3502` by default; change it if you publish under another account).
 - [ ] `SKILL.md` version, `CHANGELOG.md`, and the intended tag agree.
 
 ## Create the public repository
@@ -24,7 +24,7 @@ gh repo create initializing-agent-context --public --source . --remote origin --
 Without `gh`:
 
 ```bash
-git remote add origin https://github.com/jAIwave/initializing-agent-context.git
+git remote add origin https://github.com/johannes3502/initializing-agent-context.git
 git push -u origin main
 ```
 

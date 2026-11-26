@@ -6,7 +6,7 @@ deterministic checks.
 
 Works with Kilo, Claude Code, and any agent that reads `AGENTS.md`.
 
-[![CI](https://github.com/jAIwave/initializing-agent-context/actions/workflows/ci.yml/badge.svg)](https://github.com/jAIwave/initializing-agent-context/actions/workflows/ci.yml)
+[![CI](https://github.com/johannes3502/initializing-agent-context/actions/workflows/ci.yml/badge.svg)](https://github.com/johannes3502/initializing-agent-context/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Why
@@ -35,28 +35,28 @@ The directory name must match `name` in `SKILL.md`.
 ### Kilo, globally
 
 ```bash
-git clone https://github.com/jAIwave/initializing-agent-context.git \
+git clone https://github.com/johannes3502/initializing-agent-context.git \
   ~/.kilo/skills/initializing-agent-context
 ```
 
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/jAIwave/initializing-agent-context.git `
+git clone https://github.com/johannes3502/initializing-agent-context.git `
   "$env:USERPROFILE\.kilo\skills\initializing-agent-context"
 ```
 
 ### Kilo, per project
 
 ```bash
-git clone https://github.com/jAIwave/initializing-agent-context.git \
+git clone https://github.com/johannes3502/initializing-agent-context.git \
   .kilo/skills/initializing-agent-context
 ```
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/jAIwave/initializing-agent-context.git \
+git clone https://github.com/johannes3502/initializing-agent-context.git \
   ~/.claude/skills/initializing-agent-context
 ```
 
