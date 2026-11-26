@@ -1,0 +1,46 @@
+{
+  "required_sections": ["commands", "read_next", "ownership"],
+  "root_extra_sections": ["invariants"],
+  "max_lines": {
+    "root_warn": 180,
+    "root_hard": 260,
+    "unit_warn": 220,
+    "unit_hard": 260
+  },
+  "soft_root_target": 120,
+  "review_max_age_days": 365,
+  "check_duplicates": false,
+  "allow_missing_root": false,
+  "section_aliases": {},
+  "include": [
+    "AGENTS.md",
+    "README.md",
+    "docs/*.md",
+    "docs/**/*.md",
+    "doc/*.md",
+    "doc/**/*.md"
+  ],
+  "exclude": [],
+  "exclude_dirs": [
+    "node_modules",
+    "venv",
+    ".venv",
+    "dist",
+    "build",
+    "out",
+    "target",
+    ".git",
+    ".next",
+    ".nuxt",
+    "coverage",
+    "test-results",
+    "playwright-report",
+    "nworktree",
+    "worktrees",
+    ".worktrees",
+    "__pycache__",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache"
+  ]
+}

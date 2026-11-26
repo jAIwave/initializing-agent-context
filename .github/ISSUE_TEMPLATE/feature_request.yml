@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a new state, profile, checker rule, or command classification.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is missing or hard to do today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the behavior, flag, config key, or fixture you expect.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      options:
+        - label: The proposal keeps the scripts dependency-free and read-only.
+        - label: The proposal can be covered by a fixture or unit test.

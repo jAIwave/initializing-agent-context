@@ -1,0 +1,15 @@
+{
+  "include": [
+    "AGENTS.md",
+    "README.md",
+    "docs/*.md",
+    "docs/**/*.md",
+    "references/*.md",
+    "references/**/*.md",
+    "templates/*.md"
+  ],
+  "exclude": [
+    "tests/fixtures/**",
+    "templates/**"
+  ]
+}

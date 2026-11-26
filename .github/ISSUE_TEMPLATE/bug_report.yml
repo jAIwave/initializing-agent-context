@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a crash, a wrong classification, or a broken check.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security issues here. Use the private reporting described in SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.12"
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command or repository content
+      description: The exact command, file, or snippet that triggers the issue.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the output or traceback.
+      render: text
+    validations:
+      required: true
